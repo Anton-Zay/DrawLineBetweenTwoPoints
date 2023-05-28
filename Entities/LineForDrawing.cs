@@ -18,10 +18,10 @@ namespace Entities
             line = new Line();
             line.Stroke = Brushes.Black;
             line.StrokeThickness = 2;
-            line.X1 = startPoint.X;
-            line.X2 = endPoint.X;
-            line.Y1 = startPoint.Y;
-            line.Y2 = endPoint.Y;
+            line.X1 = StartPoint.X;
+            line.X2 = EndPoint.X;
+            line.Y1 = StartPoint.Y;
+            line.Y2 = EndPoint.Y;
         }
     }
 }
